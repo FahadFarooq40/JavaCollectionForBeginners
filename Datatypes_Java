@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        int myNum = 19;
+        float myFloatNum = 5.99f;
+        double myWeightNum = 12.99;
+        char myLetter = 'F';
+        boolean myBool = true;
+        String myText = "Fahad Farooq";
+        long Number = 92310256687L;
+
+        System.out.println("WELL COME TO JAVA Datatype ");
+        System.out.println("Age: " + myNum);
+        System.out.println("Height: " + myFloatNum);
+        System.out.println("Weight: " + myWeightNum);
+        System.out.println("First Letter: " + myLetter);
+        System.out.println("Correct: " + myBool);
+        System.out.println("Name: " + myText);
+        System.out.println("Phone Number: " + Number );
+
+
+    }
+}
