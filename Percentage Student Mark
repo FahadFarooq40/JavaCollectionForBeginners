@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class studentdetails {
+    public static void main(String[] args) {
+        System.out.println("WELCOME TO STUDENT DETAILS:");
+        try (Scanner user = new Scanner(System.in)) {
+            System.out.print("Enter Your English Marks: ");
+            float english = user.nextFloat();
+
+            System.out.print("Enter Your Urdu Marks: ");
+            float urdu = user.nextFloat();
+
+            System.out.print("Enter Your Islamiyat Marks: ");
+            float islamiyat = user.nextFloat();
+
+            System.out.print("Enter Your Sindhi Marks: ");
+            float sindhi = user.nextFloat();
+
+            System.out.print("Enter Your Chemistry Marks: ");
+            float chemistry = user.nextFloat();
+
+            float sum = english + urdu + islamiyat + sindhi + chemistry;
+            float percentage = (sum / 500) * 100; 
+
+            System.out.println("Congratulations! You have successfully Passed. Your Percentage is: " + percentage + "%");
+        }
+    }
+}
