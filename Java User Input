@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+System.out.println("Taking Input  From The User Information");
+         Scanner User = new Scanner(System.in);
+            System.out.println("Enter The Name: ");
+            String UserName = User.nextLine();
+  
+            System.out.println("Enter The password:");
+            String UserPassword = User.nextLine();
+  
+            System.out.println("SuccessFully Complete  The UserName: " + UserName + "Password: " + UserPassword);
+            
+            System.out.println("Enter The Decimal Number:");
+            float DecimalNumber = User.nextFloat();
+            System.out.println( "Thank You For this Number " + DecimalNumber);
