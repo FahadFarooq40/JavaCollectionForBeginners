@@ -1,0 +1,11 @@
+
+public class Main {
+    public static void main(String[] args) {
+        int myNum00 = 19; 
+        int myNum01 = myNum00 + 1; 
+        int myNum02 =  myNum01 - 12;
+        int SumNumber = myNum01 + myNum01 + myNum02;
+        System.out.println(SumNumber);
+      }
+  
+}
