@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class IncrementOperator {
+    public static void main(String[] args) {
+        System.out.println("WELCOME TO Increment AND Decrement:");
+        try (Scanner user = new Scanner(System.in)) {
+           int i = user.nextInt();
+           int Increment  = i++;
+           int Decrement  = ++i;
+           int Increments  = i--;
+           int Decrements  = --i;
+
+           System.out.println( "Increment++ : " + Increment  + ", ++Decrement : " + Decrement );
+           System.out.println("-------------------------------------------------------");
+           System.out.println( "Increments-- : " + Increments  + ", --Decrements : " + Decrements );
+
+        }
+    }
+}
