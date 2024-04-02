@@ -7,6 +7,7 @@ public class Main {
         boolean myBool = true;
         String myText = "Fahad Farooq";
         long Number = 92310256687L;
+short ShortNumber = 12;
 
         System.out.println("WELL COME TO JAVA Datatype ");
         System.out.println("Age: " + myNum);
@@ -16,6 +17,7 @@ public class Main {
         System.out.println("Correct: " + myBool);
         System.out.println("Name: " + myText);
         System.out.println("Phone Number: " + Number );
+        System.out.println("Short Number: " + ShortNumber );
 
 
     }
