@@ -1,7 +1,7 @@
 public class flates {
     public static void main(String[] args) {
         System.out.println("Welcome To Flats Details -"); 
-        int[][] flats;
+        int[][] flat;
         flats = new int[2][3][4];
         flats[0][0] = 101;
         flats[0][1] = 102;
